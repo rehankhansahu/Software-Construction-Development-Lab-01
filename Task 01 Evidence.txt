@@ -1,0 +1,11 @@
+Task 1 Evidence
+
+File:
+lab01_gradedtask_01.py
+
+Git history:
+892fe1d 2026-09-28 09:33:11 +0500 Fix invalid input defect
+6fcb220 2026-09-28 09:23:41 +0500 Task 1 first working version
+
+Python version:
+Python 3.14.7

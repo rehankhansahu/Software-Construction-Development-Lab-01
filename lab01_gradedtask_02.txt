@@ -1,0 +1,63 @@
+Graded Task 2 — AI-Assisted Build
+
+1. AI Prompt
+
+
+Modify this converter so that it accepts a range of Celsius values and handles malformed or non-numeric input gracefully. Keep the implementation simple and suitable for a beginner.
+```
+
+2. Verbatim AI Suggestion
+
+try:
+    start = int(input("Enter the starting Celsius value: "))
+    end = int(input("Enter the ending Celsius value: "))
+
+    if start > end:
+        print("Starting value must be less than or equal to the ending value.")
+    else:
+        for celsius in range(start, end + 1):
+            fahrenheit = (celsius * 9 / 5) + 32
+            print(f"{celsius}°C = {fahrenheit}°F")
+
+except ValueError:
+    print("Invalid input. Please enter whole numbers.")
+
+
+3. Reason for Rejecting the Suggestion
+
+The suggestion is unnecessary for the original task because it changes a simple single-value converter into a range-based program and adds extra logic that was not required.
+
+4. Final AI-Assisted Program
+
+RUN_PROFILE = "ai-assisted"
+
+def celsius_to_fahrenheit(celsius: float) -> float:
+    return celsius * 9 / 5 + 32
+
+
+if __name__ == "__main__":
+    celsius = float(input("Enter temperature in Celsius: "))
+    fahrenheit = celsius_to_fahrenheit(celsius)
+    print("Temperature in Fahrenheit:", fahrenheit)
+
+
+5. Test Run
+
+Input:
+25
+
+Output:
+
+
+Enter temperature in Celsius: 25
+Temperature in Fahrenheit: 77.0
+
+
+6. Git Commit
+
+The completed AI-assisted program was saved in the ai-build` branch and committed to the repository.
+
+Commit message:
+
+Build AI-assisted Celsius converter
+

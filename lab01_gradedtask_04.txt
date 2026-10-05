@@ -1,0 +1,7 @@
+Graded Task 4 — Largest Difference
+
+The largest difference is the use of a function with type hints in `lab01_gradedtask_02.py:5`: `def celsius_to_fahrenheit(celsius: float) -> float:`.
+This is a real improvement because it clearly shows that the function expects a floating-point Celsius value and returns a floating-point result.
+It also makes the code easier to understand without changing the actual Celsius-to-Fahrenheit calculation.
+Therefore, I consider this a real improvement in code clarity rather than only a different coding habit.
+

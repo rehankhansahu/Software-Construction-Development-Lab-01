@@ -1,0 +1,25 @@
+Graded Task 3 — Compare Using Your Own Numbers
+
+
+Hand-written version:
+
+* File: `lab01_gradedtask_01.py
+* Lines of code: 15
+* Defects personally hit: 1
+* First commit: `6fcb220` at 09:23:41
+* Last commit: `892fe1d` at 09:33:11
+* Time elapsed: 9.5 minutes
+
+AI-assisted version:
+
+* File: `lab01_gradedtask_02.py
+* Lines of code: 12
+* Defects personally hit: 0
+* Commit: `b47f17d` at 11:51:48
+* Time elapsed: N/A because only one commit was recorded
+
+Comparison:
+
+The AI assistant helped by producing a working converter with a simple function and type hint. It cost some time because its extended suggestion added range handling and extra logic that was not required for the original task. The hand-written version had 1 defect, while the final AI-assisted version had 0 defects and used 12 lines instead of 15.
+
+
